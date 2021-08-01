@@ -29,7 +29,6 @@ type HomeProps = {
 
 export default function Home({allEpisodes, latestEpisodes}: HomeProps) {
   const {play} = useContext(PlayerContext)
-  console.log(play)
   return (
     <div className={styles.homepage}>
       <section className={styles.latestEpisodes}>
